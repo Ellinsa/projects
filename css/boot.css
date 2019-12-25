@@ -1,0 +1,141 @@
+body {
+    font-family: 'Neucha', cursive;
+    /* font-family: 'Ubuntu', sans-serif; */
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    background-image: url('http://365psd.ru/images/backgrounds/bg-lightl-879.jpg');
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: #135370;
+    font-size: 3.5rem;
+    margin: 30px auto 0 auto;
+}
+
+h2 {
+    margin: 0;
+    color: #135370;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1e608b;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #1e608b;
+}
+
+.top-container {
+    font-size: 2rem;
+    font-weight: 600;
+    height: 100vh;
+    /* background-color: #faeee7; */
+    background-image: url('http://365psd.ru/images/backgrounds/bg-light-4857.png');
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.flex-row {
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+}
+
+
+.flex-row-text {
+    text-align: center;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.margin {
+    margin: 0px auto 0px auto;
+
+}
+
+.flex-main-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.stars {
+    height: 35vh;
+}
+
+.hacker {
+    height: 40vh;
+}
+
+.pc {
+    height: 200px;
+}
+
+
+
+.bottom-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.bottom-container-second,
+.bottom-container-first {
+    height: 20vh;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.graduate,
+.hi,
+.study,
+.tea {
+    height: 300px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    line-height: 35px;
+}
+
+.icon {
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.icon1 {
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+}
