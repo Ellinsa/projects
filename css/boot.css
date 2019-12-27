@@ -65,9 +65,13 @@ a {
 
 
 .flex-row-text {
-    text-align: center;
+    /* text-align: center; */
     width: 50%;
     font-size: 2rem;
+}
+
+.flex-row-text h3 {
+    text-align: center;
 }
 
 .margin {
@@ -109,15 +113,12 @@ a {
 
 .bottom-container-second,
 .bottom-container-first {
-    height: 20vh;
+    height: 15vh;
     margin: 0;
     font-size: 1.3rem;
 }
 
-.graduate,
-.hi,
-.study,
-.tea {
+.pic {
     height: 300px;
 }
 
@@ -138,4 +139,119 @@ a {
     margin-top: 20px;
     margin-left: 0;
     margin-right: 10px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .stars {
+        display: none;
+    }
+
+    .bottom-container-second,
+    .bottom-container-first {
+        height: 10vh;
+        margin: 0;
+        font-size: 1.3rem;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .stars {
+        display: none;
+    }
+
+    .bottom-container-second,
+    .bottom-container-first {
+        height: 10vh;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .stars {
+        display: none;
+    }
+
+    .bottom-container-second,
+    .bottom-container-first {
+        height: 10vh;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .flex-row {
+        margin: 10px auto 10px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+    }
+
+    .pic {
+        position: relative;
+        left: 50px;
+    }
+
+    .flex-row-text {
+        /* text-align: center; */
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .stars {
+        display: none;
+    }
+
+    .bottom-container-second,
+    .bottom-container-first {
+        height: 10vh;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .bottom-container-second {
+        display: none;
+    }
+
+    .bottom-container-first {
+        height: 10vh;
+        margin: 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .flex-row {
+        margin: 1px auto 1px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 70%;
+    }
+
+    .pic {
+        position: relative;
+        left: 80px;
+        height: 150px;
+    }
+
+    .flex-row-text {
+        /* text-align: center; */
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
 }
