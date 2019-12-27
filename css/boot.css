@@ -294,6 +294,10 @@ a {
         height: 150px;
     }
 
+    .hi {
+        margin-top: 20px;
+    }
+
     .flex-row-text {
         /* text-align: center; */
         width: 100%;
@@ -339,6 +343,10 @@ a {
         position: relative;
         left: 50px;
         height: 150px;
+    }
+
+    .hi {
+        margin-top: 10px;
     }
 
     .flex-row-text {
